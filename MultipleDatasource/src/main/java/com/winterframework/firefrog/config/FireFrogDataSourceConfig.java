@@ -48,7 +48,6 @@ public class FireFrogDataSourceConfig {
 	@Autowired
     private JpaProperties jpaProperties;
 	
-	@Primary
 	@Bean(name="oracleDataSource")
 	public DataSource createOracleDataSource(){
 		
